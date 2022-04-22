@@ -1,0 +1,62 @@
+
+.center {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+body, main {
+  background: lightblue;
+  margin: 0px;
+  padding: 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+footer, .nav {
+  text-align: center;
+  background-color: #0086b3;
+}
+footer {
+  height: 30px;
+}
+.container {
+   display: block;
+   margin: 0px;
+  padding: 0px;
+}
+h1 {
+  margin-top: 10px;
+  text-align:center;
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+span {
+   font-family:Papyrus;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 50px;
+  color:whitesmoke;
+  letter-spacing: 3px;
+}
+h3 {
+   color:whitesmoke;
+}
+
+
